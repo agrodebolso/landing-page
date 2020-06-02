@@ -33,6 +33,7 @@ body {
 
 .navbar {
     background-color: transparent;
+    font-weight: bold;
 }
 
 .hand {
@@ -65,4 +66,13 @@ main section .row {
     ),
     url("./images/marketleft.jpg") no-repeat;
     background-size: 100%;
+}
+
+.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+
+.scrolled a {
+    color: green !important;
 }
