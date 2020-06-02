@@ -3,7 +3,10 @@ html {
 }
 
 body {
-    background-color: #010;
+    background: radial-gradient( 
+        rgb(1, 134, 1), 
+        rgb(0, 82, 0)   
+    )
 }
 
 .jumbotron {
