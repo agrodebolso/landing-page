@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@900&display=swap');
+
 html {
     overflow-x: hidden;
 }
@@ -6,18 +8,17 @@ body {
     background: radial-gradient( 
         rgb(1, 134, 1), 
         rgb(0, 82, 0)   
-    )
+    );
+    font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron {
     height: 100vh;
-    background: radial-gradient( 
-        rgba(0, 0, 0, 0.1), 
-        rgba(0, 0, 0, 0.7)   
-    ),
-    url("./images/farm.jpg") no-repeat;
+    background: url('./images/BackgroundLP.svg');
+    background-color: #fefefe;
     background-size: 100%;
-    color: white;
+    color: black;
+    padding-top: 10em;
 }
 
 .jumbotron .container { 
@@ -31,9 +32,19 @@ body {
     align-items: center;
 }
 
+.jumbotron .display-4 {
+    color: #0F8345;
+    font-family: 'Rubik', sans-serif;
+}
+
 .navbar {
-    background-color: transparent;
     font-weight: bold;
+    padding: 2em;
+    background-color: transparent;
+}
+
+.navbar * {
+    color: #0F8345;
 }
 
 .hand {
@@ -72,7 +83,3 @@ main section .row {
     background-color: #fff !important;
     transition: background-color 200ms linear;
   }
-
-.scrolled a {
-    color: green !important;
-}
