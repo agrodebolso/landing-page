@@ -1,0 +1,65 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #010;
+}
+
+.jumbotron {
+    height: 100vh;
+    background: radial-gradient( 
+        rgba(0, 0, 0, 0.1), 
+        rgba(0, 0, 0, 0.7)   
+    ),
+    url("./images/farm.jpg") no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.jumbotron .container { 
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.jumbotron .row {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.hand {
+    position: relative;
+    right: -12%;
+    bottom: -4.5em;  
+}
+
+main section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+main section h2{
+    color: orange;
+    font-weight: bolder;
+}
+
+main section .row {
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    background: radial-gradient( 
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.3)   
+    ),
+    url("./images/marketleft.jpg") no-repeat;
+    background-size: 100%;
+}
