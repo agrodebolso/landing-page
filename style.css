@@ -1,85 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@900&display=swap');
 
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
-    background: radial-gradient( 
-        rgb(1, 134, 1), 
-        rgb(0, 82, 0)   
-    );
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron {
-    height: 100vh;
-    background: url('./images/BackgroundLP.svg');
-    background-color: #fefefe;
-    background-size: 100%;
-    color: black;
-    padding-top: 10em;
+  height: 100vh;
+  background: url('./images/backgroundLP.svg');
+  background-color: #fefefe;
+  background-size: 100%;
+  color: black;
+  padding-top: 9em;
+  margin-bottom: 0;
 }
 
-.jumbotron .container { 
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.jumbotron .row {
-    display: flex;
-    align-items: center;
-}
 
 .jumbotron .display-4 {
-    color: #0F8345;
-    font-family: 'Rubik', sans-serif;
+  color: #0F8345;
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 .navbar {
-    font-weight: bold;
-    padding: 2em;
-    background-color: transparent;
-}
-
-.navbar * {
-    color: #0F8345;
-}
-
-.hand {
-    position: relative;
-    right: -12%;
-    bottom: -4.5em;  
-}
-
-main section{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    color: white;
-}
-
-main section h2{
-    color: orange;
-    font-weight: bolder;
-}
-
-main section .row {
-    display: flex;
-    align-items: center;
-}
-
-.about {
-    background: radial-gradient( 
-        rgba(0, 0, 0, 0.6), 
-        rgba(0, 0, 0, 0.3)   
-    ),
-    url("./images/marketleft.jpg") no-repeat;
-    background-size: 100%;
+  font-weight: bold;
+  padding: 2em;
+  background-color: transparent;
 }
 
 .scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.img-cesta {
+  max-height: 78vh;
+}
+
+#register {
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 1em 3em;
+}
+
+.logo {
+  height: 3.5em;
+}
+
+@media only screen and (max-width: 830px) {
+  .logo {
+    height: 2em;
   }
+
+  .jumbotron {
+    background-size: 150%;
+    min-height: 56vh;
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 1.3rem;
+  }
+
+}
