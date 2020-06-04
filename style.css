@@ -58,16 +58,28 @@ body {
     height: 2em;
   }
 
+  .navbar {
+    padding: 1em 2em;
+  }
+
   .jumbotron {
-    background-size: 150%;
+    background-size: 200%;
     min-height: 56vh;
     max-width: 100%;
     height: auto;
     background-repeat: no-repeat;
+    padding-bottom: 0rem;
   }
 
   .jumbotron .display-4 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
+  .text-box {
+    background-color: #f4f5c9;
+  }
+
+  .img-cesta {
+    max-height: 35vh;
+  }
 }
